@@ -115,7 +115,7 @@ const options = {
   utc: false
 };
 const isAHoliday = fedHolidays.isAHoliday(myDate, options);
-// Returns true or false
+// Returns the holiday object or false
 ```
 
 All three methods take `options` as a second argument. This argument is a plain object which accepts the following properties:
